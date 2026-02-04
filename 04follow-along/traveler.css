@@ -7,6 +7,20 @@ font-weight: 300;
 margin: 0;
 }
 
+/* This is the header area */ 
+
+header {
+    background-color: #eaeaea;
+    padding: 1rem 2vw; 
+}
+
+header span {
+    margin: 0;
+    color: #024783;
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
 /* This is the navigation area */ 
 
 nav {
@@ -36,5 +50,70 @@ nav li.active a{
 
 nav a:hover {
     color: #ffffff;
+}
+
+/* THis is the main stuff here */
+
+main {
+    padding: 1rem 2vw;
+}
+
+main h1 {
+    color: #b40412;
+}
+
+main h2 {
+    color: #024873;
+    margin-bottom: .2rem;
+}
+
+main p {
+    color: #333333;
+    margin: 0;
+}
+
+main ol {
+    padding: .5rem 30px;
+    background-color: #efefef;
+    list-style-type: lower-alpha;
+}
+
+main dl dt{
+    color: #b40412;
+    font-weight: 700;
+}
+
+main dl dd {
+    color: #024873;
+    font-size: .9rem;
+    margin-left: 20px;
+}
+
+main ul {
+    list-style-type: circle;
+}
+
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+
+main address {
+    font-style: normal;
+    background-color: #f2b705;
+    padding: .5rem;
+    width: 12.5rem;
+    border: 2px solid #024783;
+    border-radius: .8rem;
+}
+
+/* This is the footer stuff here */
+
+footer {
+    background-color: #eaeaea;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: .8rem;
 }
 
