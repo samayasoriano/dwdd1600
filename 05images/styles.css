@@ -1,0 +1,193 @@
+/* Sunsets & Suitcases CSS */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #f5f5dc; /* beige */
+    color: #0468BF; /* main font color */
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #0468BF;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px 20px;
+    border-bottom: 4px solid #023e73;
+}
+
+h1 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1rem;
+    margin-bottom: 16px;
+}
+
+/* Main */
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 2px solid #0468BF;
+    border-radius: 12px;
+}
+
+/* Navigation */
+nav {
+    background-color: #023e73;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 48px;
+    padding: 14px 24px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav a:hover {
+    background-color: #0468BF;
+}
+
+
+nav a.active {
+    background-color: #0496ff;
+    border-radius: 6px;
+}
+
+/* Lists */
+ul {
+    list-style-type: circle; 
+    margin: 15px 0 20px 25px;
+    padding-left: 20px;
+}
+
+ol {
+    margin: 15px 0 20px 25px;
+    padding-left: 20px;
+}
+
+/* Definition list */
+dl {
+    background-color: #f0f8ff;
+    padding: 15px;
+    border: 2px solid #0468BF;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+dt {
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+dd {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+main a {
+    color: #023e73;
+    font-weight: 500;
+}
+
+main a:hover {
+    color: #0496ff;
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #023e73;
+    color: #ffffff;
+    padding: 15px;
+    margin-top: 30px;
+    border-top: 4px solid #0468BF;
+}
+
+/* homepage */
+
+.homephoto {
+    float: right;
+    width: 40%;
+    margin: 0 0 15px 20px;
+}
+
+.homephoto img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+.homephoto figcaption {
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 5px;
+}
+
+/* gallery */
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.gallery figure {
+    width: 220px;
+    margin: 0;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+.gallery figcaption {
+    text-align: center;
+    margin-top: 6px;
+    font-size: 0.9rem;
+}
+
+/* footer */
+
+footer {
+    text-align: center;
+    background-color: #023e73;
+    color: #ffffff;
+    padding: 15px;
+    margin-top: 30px;
+    border-top: 4px solid #0468BF;
+    clear: both; 
+}
