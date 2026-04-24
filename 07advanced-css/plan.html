@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sunsets & Suitcases | Plan Your Trip</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Samaya Soriano">
+    <meta name="description" content="Plan your Dominican Republic adventure with Sunsets & Suitcases.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+
+<header>
+    <img src="images/logo.png" alt="Sunsets & Suitcases logo" class="logo">
+    <h1><span>Sunsets & Suitcases</span></h1>
+    <p>Exploring the Dominican Republic</p>
+    
+</header>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="plan.html" class="active">Plan Your Trip</a></li>
+        <li><a href="about.html">About Us</a></li>
+    </ul>
+</nav>
+
+<main>
+        <h2>Plan Your Dream Getaway</h2>
+        <p>
+            Tell us what kind of Dominican Republic experience you are dreaming about.
+            Fill out this trip planner and we will help shape the perfect island adventure.
+        </p>
+
+        <form method="get" action="thanks.html">
+
+            <fieldset>
+                <legend>Traveler Details</legend>
+
+                <label>Full Name *<input type="text" name="fname"required></label>
+
+                <label>Email *<input type="email" name="email"required></label>
+
+                <label>Cell Number*<input type="tel" name="phone" required placeholder="123-456-7890"></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Trip Preferences</legend>
+
+                <p class="form-label">What kind of trip are you planning? *</p>
+                <label><input type="radio" name="triptype" value="romantic" required> Romantic escape</label>
+                <label><input type="radio" name="triptype" value="family"> Family vacation</label>
+                <label><input type="radio" name="triptype" value="adventure"> Adventure trip</label>
+                <label><input type="radio" name="triptype" value="relaxing"> Relaxing beach stay</label>
+
+                <label for="region">Which area interests you most?</label>
+                <select id="region" name="region">
+                    <option value="">Choose a destination</option>
+                    <option value="punta-cana">Punta Cana</option>
+                    <option value="santo-domingo">Santo Domingo</option>
+                    <option value="puerto-plata">Puerto Plata</option>
+                    <option value="samana">Samaná</option>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <legend>Experience Wishlist</legend>
+
+                <p class="form-label">What would you love to include in your trip?</p>
+                <label><input type="checkbox" name="activities" value="beaches"> Beach days</label>
+                <label><input type="checkbox" name="activities" value="food"> Local food tours</label>
+                <label><input type="checkbox" name="activities" value="water-sports"> Water sports</label>
+                <label><input type="checkbox" name="activities" value="culture"> Cultural sites</label>
+                <label><input type="checkbox" name="activities" value="hiking"> Hiking and nature</label>
+
+                <label for="notes">Anything else we should know? *</label>
+                <textarea name="notes" placeholder="Tell us about your budget, travel dates, favorite activities, or special requests..." required></textarea>
+            </fieldset>
+
+            <input type="submit" value="Submit Your Plan">
+        </form>
+</main>
+
+<footer>
+    <p>&copy; 2026 Sunsets & Suitcases | Dominican Republic Travel Blog</p>
+</footer>
+
+</body>
+</html>
