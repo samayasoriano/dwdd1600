@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Budget Vacations Rome for more information.">
+    <meta name="author" content="Carter">
+    <title>Budget Vacations Rome | Contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <div class="page-banner">
+        <h1>Request More Information</h1>
+        <p>Tell us what kind of Rome trip you want to plan.</p>
+    </div>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="destinations.html">Destinations</a></li>
+        <li><a href="video.html">Video</a></li>
+        <li><a href="packages.html">Packages</a></li>
+        <li><a class="active" href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<main>
+    <form class="card" method="get" action="thanks.html">
+        <fieldset>
+            <legend>Your Information</legend>
+            <label>First Name
+                <input type="text" name="first-name" required>
+            </label>
+            <label>Last Name
+                <input type="text" name="last-name" required>
+            </label>
+            <label>Email Address
+                <input type="email" name="email" required>
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Trip Details</legend>
+            <label>Preferred Package
+                <select name="package" required>
+                    <option value="">Choose a package</option>
+                    <option value="ancient-rome">Ancient Rome Weekend</option>
+                    <option value="vatican-views">Vatican and City Views</option>
+                    <option value="food-neighborhood">Food and Neighborhood Escape</option>
+                </select>
+            </label>
+
+            <p class="form-label">Travel Budget</p>
+            <label class="choice"><input type="radio" name="budget" value="under-1500" required> Under $1,500</label>
+            <label class="choice"><input type="radio" name="budget" value="1500-2000"> $1,500 to $2,000</label>
+            <label class="choice"><input type="radio" name="budget" value="over-2000"> Over $2,000</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Comments</legend>
+            <label>What do you want to see or do in Rome?
+                <textarea name="comments" rows="7" required></textarea>
+            </label>
+        </fieldset>
+
+        <button type="submit">Send Request</button>
+    </form>
+</main>
+
+<footer>
+    <p>&copy; 2026 Budget Vacations Rome &bull; Sample student travel website</p>
+</footer>
+</body>
+</html>
